@@ -16,3 +16,11 @@ First run the api by:
 Then open the index.html in google chrome.
 After that, make sure the CORS is unblocked.
 Website should be running flawlessly.
+
+# Add new train record
+First edit the addRecord.py with the desired record to be added.
+Then run the addRecord.py file by:
+```python addRecord.py```
+
+# Other Scripts
+extractInfo.py creates the extractedData.csv.
