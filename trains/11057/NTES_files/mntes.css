@@ -1,0 +1,493 @@
+a.blue11U:link 
+{ 
+	color: #0000FF;
+	font-size:11px;
+	font-weight:bold;  
+	text-decoration: none; 
+}
+a.blue11U:visited 
+{
+	color: #0000FF; 
+	font-size:11px;
+	font-weight:bold;  
+	text-decoration: none; 
+}
+a.blue11U:hover 
+{ 
+	color: #0000FF; 
+	font-size:11px;
+	font-weight:bold;   
+	text-decoration: underline; 
+}
+a.blue11U:active 
+{ 
+	color: #0000FF; 
+	font-size:11px;
+	font-weight:bold;   
+	text-decoration: none; 
+}
+
+a.trainTypeU:link 
+{ 
+	text-decoration: none; 
+}
+a.trainTypeU:visited 
+{
+	text-decoration: none; 
+}
+a.trainTypeU:hover 
+{ 
+	text-decoration: underline; 
+}
+a.trainTypeU:active 
+{ 
+	text-decoration: none; 
+}
+
+
+.tableWait 
+{
+	background: #f5f5f5;
+}
+
+a.blue11NU:link 
+{ 
+	color: #000099;
+	font-size:11px;
+	text-decoration: none; 
+}
+a.blue11NU:visited 
+{
+	color: #000099; 
+	font-size:11px;
+	text-decoration: none; 
+}
+a.blue11NU:hover 
+{ 
+	color: #0000FF; 
+	font-size:11px;
+
+	text-decoration: underline; 
+}
+a.blue11NU:active 
+{ 
+	color: #0000FF; 
+	font-size:11px;
+	text-decoration: none; 
+}
+.tableBorder300 tr
+{
+	border-left: #cccccc 1px solid;
+	
+	text-align:center;
+}
+.tableBorder300 td
+{
+	font-family: Arial;
+	font-size: 11px;
+	border-right: #cccccc 1px solid;
+	border-bottom: #cccccc 1px solid;
+	text-indent:3px;
+	empty-cells: show;
+}
+.tableBorder300
+{
+	width: 100%;
+	border-collapse: collapse;
+ 	border-left: #cccccc 1px solid;
+ 	border-right: #cccccc 1px solid;
+	border-top: #cccccc 1px solid;
+	/*border-radius:8px;
+	-moz-border-radius:8px;*/
+}
+.lightGrey
+{
+	/*background-color: #C0C0C0;*/
+	background-color: #f5f5f5;
+	font-family: Arial;
+	font-size: 12px;
+	text-indent:3px;
+	text-align:center;
+}
+.basic
+{
+	font-family: Arial;
+	font-size: 12px;
+	text-indent:3px;
+	text-align: center;
+	vertical-align: middle;
+}
+.errorText {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 12px; 
+	COLOR: #ff0000; 
+	FONT-FAMILY: Calibri;
+}
+.errorTextL11 
+{
+	font-family: Arial;
+	font-size: 11px;
+	text-indent:3px;
+	text-align: left;
+	vertical-align: middle;
+	COLOR: #ff0000; 
+}
+.errorTextC11 
+{
+	font-family: Arial;
+	font-size: 11px;
+	text-indent:3px;
+	text-align: center;
+	vertical-align: middle;
+	COLOR: #ff0000; 
+}
+.greenS11L
+{
+	font-family:Arial;
+	text-align:left;
+	font-weight:normal;
+	font-size:11px;
+	color:#00A900;
+}
+.greenS11C
+{
+	font-family:Arial;
+	text-align:center;
+	font-weight:normal;
+	font-size:11px;
+	color:#00A900;
+}
+.greenS11R
+{
+	font-family:Arial;
+	text-align:right;
+	font-weight:normal;
+	font-size:11px;
+	color:#00A900;
+}
+.blueS11L
+{
+	font-family:Arial;
+	text-align:left;
+	font-weight:normal;
+	font-size:11px;
+	color:#0000D7;
+}
+.blueS11C
+{
+	font-family:Arial;
+	text-align:center;
+	font-weight:normal;
+	font-size:11px;
+	color:#0000D7;
+}
+.blueS11R
+{
+	font-family:Arial;
+	text-align:right;
+	font-weight:normal;
+	font-size:11px;
+	color:#0000D7;
+}
+.blue12C
+{
+	font-family:Arial;
+	text-align:center;
+	font-weight:normal;
+	font-size:12px;
+	color:#0000D7;
+	vertical-align:  middle;
+}
+.blue13C
+{
+	font-family:Arial;
+	text-align:center;
+	font-weight:normal;
+	font-size:13px;
+	color:#0000D7;
+	vertical-align:  middle;
+}
+
+/*--------- Train Types Classes styles --------------s------*/
+
+.trainTypeRAJ 
+{
+	color:#FF480B !important;	
+	font-size:11px;
+	text-decoration: none;
+	
+}
+.trainTypeSHT
+{
+	color:#006AD5 !important;	
+	font-size:11px;
+	text-decoration: none;
+}
+.trainTypeGBR
+{
+	color:#008000 !important;
+	font-size:11px;
+	text-decoration: none;		
+}
+.trainTypeSUF
+{
+	color:#D56A00 !important;	
+	font-size:11px;
+	text-decoration: none;	
+}
+.trainTypeMEX
+{
+	color:#8B4513 !important;	
+	font-size:11px;
+	text-decoration: none;	
+}
+.trainTypePRUM
+{
+	color:#8B4513 !important;	
+	font-size:11px;
+	text-decoration: none;	
+}
+.trainTypePAS
+{
+	color:#000000 !important;	
+	font-size:11px;
+	text-decoration: none;	
+}
+.trainTypeHSP
+{
+	color:#000000 !important;	
+	font-size:11px;
+	text-decoration: none;	
+}
+.trainTypeDRNT
+{
+	color:#000000 !important;	
+	font-size:11px;
+	text-decoration: none;	
+}
+.trainTypeEMU
+{
+	color:#000000 !important;	
+	font-size:11px;
+	text-decoration: none;	
+}
+.trainTypeHSP
+{
+	color:#000000 !important;	
+	font-size:11px;
+	text-decoration: none;	
+}
+.trainTypeJSH
+{
+	color:#006AD5 !important;	
+	font-size:11px;
+	text-decoration: none;	
+}
+.trainTypeMEMU
+{
+	color:#000000 !important;	
+	font-size:11px;
+	text-decoration: none;	
+}
+.trainTypeSUB
+{
+	color:#000000 !important;	
+	font-size:11px;
+	text-decoration: none;	
+}
+.trainTypeDMU
+{
+	color:#000000 !important;
+	font-size:11px;	
+	text-decoration: none;	
+}
+
+.dayOfRunStyleY
+{
+	color:#009900;
+	font-weight:bold; 
+}
+.dayOfRunStyleX
+{
+	color:#B8B8B8 ;
+	font-size: 9px;
+}
+/*--------- Train Types Classes styles --------------e------*/
+
+.buttonAsk{
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 3px; BORDER-TOP: medium none; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; BORDER-LEFT: medium none; CURSOR: pointer; COLOR: #ffffff; PADDING-TOP: 2px; BORDER-BOTTOM: medium none; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif; HEIGHT: 18px; BACKGROUND-COLOR: #4c99cc; TEXT-DECORATION: none; TEXT-ALIGN:center
+}
+.buttonAsk2 {
+	BORDER-RIGHT: 1px solid; 
+	BORDER-TOP: medium none; 
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 10px; 
+	BORDER-LEFT: 1px solid; 
+	CURSOR: pointer; 
+	COLOR: #ffffff; 
+	BORDER-BOTTOM: medium none; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif; 
+	HEIGHT: 18px; 
+	BACKGROUND-COLOR: #328CD6; 
+	TEXT-DECORATION: none;
+	TEXT-ALIGN:center
+}
+.buttonAsk3{
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 3px; BORDER-TOP: medium none; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; BORDER-LEFT: medium none; CURSOR: pointer; COLOR: #ffffff; PADDING-TOP: 2px; BORDER-BOTTOM: medium none; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif; HEIGHT: 18px;WIDTH:90px; BACKGROUND-COLOR: #1569c7; TEXT-DECORATION: none; TEXT-ALIGN:center
+}
+.buttonAsk4{
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 3px; BORDER-TOP: medium none; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 3px; BORDER-LEFT: medium none; CURSOR: pointer; COLOR: #ffffff; PADDING-TOP: 3px; BORDER-BOTTOM: medium none; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif; HEIGHT: 25px; WIDTH:90%; BACKGROUND-COLOR: #e98e05; TEXT-DECORATION: none; TEXT-ALIGN:left
+}
+.buttonAsk5{
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 3px; BORDER-TOP: medium none; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; BORDER-LEFT: medium none; CURSOR: pointer; COLOR: #ffffff; PADDING-TOP: 2px; BORDER-BOTTOM: medium none; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif; HEIGHT: 20px; WIDTH:100%; BACKGROUND-COLOR: #328CD6; TEXT-DECORATION: none; TEXT-ALIGN:left
+}
+.buttonAsk6{
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 3px; BORDER-TOP: medium none; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; BORDER-LEFT: medium none; CURSOR: pointer; COLOR: #ffffff; PADDING-TOP: 2px; BORDER-BOTTOM: medium none; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif; HEIGHT: 25px; WIDTH:100%; BACKGROUND-COLOR: #328CD6; TEXT-DECORATION: none; TEXT-ALIGN:left
+}
+.buttonAsk7{
+	BORDER-RIGHT: medium none; BORDER-TOP:  5px solid white; FONT-WEIGHT: bold; FONT-SIZE: 12px; BORDER-LEFT: medium none; CURSOR: pointer; COLOR: #ffffff; BORDER-BOTTOM: medium none; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif; HEIGHT: 50px; WIDTH: 145px;  BACKGROUND-COLOR: #328CD6; TEXT-DECORATION: none;TEXT-ALIGN:center;PADDING-TOP: 18px
+}
+.buttonMap{
+	BORDER-RIGHT: medium none; BORDER-TOP:  5px solid white; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: medium none; CURSOR: pointer; COLOR: #f6f6f6; BORDER-BOTTOM: medium none; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif; HEIGHT: 45px; WIDTH: 135px;  BACKGROUND-COLOR: #328CD6; TEXT-DECORATION: none;TEXT-ALIGN:center;PADDING-TOP: 20px
+}
+.buttonMapR{
+	BORDER-RIGHT: medium none; BORDER-TOP:  5px solid white; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: medium none; CURSOR: pointer; COLOR: #f6f6f6; BORDER-BOTTOM: medium none; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif; HEIGHT: 45px; WIDTH: 135px;  BACKGROUND-COLOR: #328CD6; TEXT-DECORATION: none;TEXT-ALIGN:center;PADDING-TOP: 1px
+}
+.buttonFull{
+	BORDER-RIGHT: medium none; BORDER-TOP:  5px solid white; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: medium none; CURSOR: pointer; COLOR: #211f1f; BORDER-BOTTOM: medium none; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif; HEIGHT: 45px; WIDTH: 155px;  BACKGROUND-COLOR: #f59b42; TEXT-DECORATION: none;TEXT-ALIGN:center;PADDING-TOP: 20px
+}
+.ask{
+BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: medium none; COLOR: #000000; BORDER-BOTTOM: medium none; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif; HEIGHT: 18px; BACKGROUND-COLOR: #FFDD11;
+}
+.ask2{
+BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-WEIGHT: bold; FONT-SIZE: 10px; BORDER-LEFT: medium none; COLOR: #000000; BORDER-BOTTOM: medium none; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif; HEIGHT: 18px; BACKGROUND-COLOR: #FAF8CC;
+}
+.ask3{
+BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-WEIGHT: normal; FONT-SIZE: 10px; BORDER-LEFT: medium none; COLOR: #000000; BORDER-BOTTOM: medium none; FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif; HEIGHT: 18px; BACKGROUND-COLOR: #FAF8CC;
+}
+.ask4
+{
+ 	FONT-WEIGHT: normal; 
+ 	FONT-SIZE: 10px; 
+ 	COLOR: #000000; 
+ 	FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif; 
+ 	
+ 	BACKGROUND-COLOR: #FAF8CC;
+}
+.buttonAskS {
+	BORDER-RIGHT: 1px solid; 
+	BORDER-TOP: 1px solid; 
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 10px; 
+	BORDER-LEFT: 1px solid; 
+	CURSOR: pointer; 
+	COLOR: #328CD6; 
+	BORDER-BOTTOM: 1px solid; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif; 
+	HEIGHT: 18px; 
+	BACKGROUND-COLOR: #ffffff; 
+	TEXT-DECORATION: none;
+	TEXT-ALIGN:center
+}
+p{
+  line-height: 180%;
+}
+
+.inputType1
+{
+	font-family:Calibri;
+	font-size:9pt;
+	color:#0000FF; 
+	border-right: none; 
+	border-bottom: none;
+}
+
+.ui-icon-myapp-schedule {
+    background-image: url("../images/calendar-white.png")  !important; 
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    
+}
+.ui-icon-myapp-station {
+    background-image: url("../images/live_bell.png")  !important; 
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    
+}
+.ui-icon-myapp-tbs {
+    background-image: url("../images/transmit_icon_white.png")  !important; 
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    
+}
+.ui-icon-myapp-reschedule {
+    background-image: url("../images/clock-white.png")  !important; 
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    
+}
+.ui-icon-myapp-pnr {
+    background-image: url("../images/user-white.png")  !important; 
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    
+}
+.ui-icon-myapp-feedback {
+    background-image: url("../images/edit-white.png")  !important; 
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+   
+}
+
+.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	font: menu;
+	font-size: 9px;
+	line-height: 16px;
+	overflow: hidden;
+}
+
+
+.ac_loading {
+	background: white url('../images/indicator.gif') right center no-repeat;
+}
+
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+	background-color: #328CD6;
+	color: white;
+}
+
+.arrDepTD
+{
+	font-family:Calibri;
+	font-size:8pt;
+	color:#0000FF; 
+	border-bottom: none; 
+	border-right: none;
+	border-top: none;
+	text-align: center;
+}

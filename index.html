@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <title>Gmap Test</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+</head>
+
+<body>
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+
+    <button type="button" onclick="changeColor1()">Color1</button>
+    <br>
+    <button type="button" onclick="changeColor2()">Color2</button>
+    <script>
+        color1 = "#0000FF"
+        color2 = "#FF0000"
+        function myMap(overlayColor = color1) {
+            var mapProp = {
+                center: new google.maps.LatLng(30.34023, 76.36658),
+                zoom: 18,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+            var myCity = new google.maps.Circle({
+                center: new google.maps.LatLng(30.34023, 76.36658),
+                radius: 20,
+                strokeColor: overlayColor,
+                strokeOpacity: 0.8,
+                strokeWeight: 2,
+                fillColor: overlayColor,
+                fillOpacity: 0.4
+            });
+            myCity.setMap(map)
+        }
+        function changeColor2() {
+            overlayColor = color2
+            myMap(color2)
+        }
+        function changeColor1() {
+            overlayColor = color1
+            myMap(color1)
+        }
+        // fs.readFile('isFatakClosed.txt', 'utf8', function (err, data) {
+        //     console.log("hello")
+        //     if (data == "1") {
+        //         changeColor2()
+        //     } else {
+        //         changeColor1()
+        //     }
+        // });
+        fetch("http://127.0.0.1:8000/isFatakClosed").then(function (response) {
+            return response.json();
+        }).then(function (data) {
+            console.log(data);
+            if (data["flag"] == 1) {
+                changeColor2()
+            } else {
+                changeColor1()
+            }
+        }).catch(function (err) {
+            console.log('Fetch Error :-S', err);
+        });
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=myMap&v=weekly" defer></script>
+</body>
+
+</html>
