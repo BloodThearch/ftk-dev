@@ -5,7 +5,7 @@ df = pd.read_csv("extractedData.csv")
 df.loc[len(df.index)] = [
     "imaginaryTrain1",
     "PTA",
-    "00:00 25-Feb",
+    "01:26 25-Feb",
     "15:35 01-Mar*",
     "15:37 01-Mar",
     "15:37 01-Mar*"

@@ -39,26 +39,36 @@
             overlayColor = color1
             myMap(color1)
         }
-        // fs.readFile('isFatakClosed.txt', 'utf8', function (err, data) {
-        //     console.log("hello")
-        //     if (data == "1") {
+        function yourFunction() {
+            // do whatever you like here
+            fetch("http://127.0.0.1:8000/isFatakClosed").then(function (response) {
+                return response.json();
+            }).then(function (data) {
+                console.log(data);
+                if (data["flag"] == 1) {
+                    changeColor2()
+                } else {
+                    changeColor1()
+                }
+            }).catch(function (err) {
+                console.log('Fetch Error :-S', err);
+            });
+            setTimeout(yourFunction, 10000);
+        }
+
+        yourFunction();
+        // fetch("http://127.0.0.1:8000/isFatakClosed").then(function (response) {
+        //     return response.json();
+        // }).then(function (data) {
+        //     console.log(data);
+        //     if (data["flag"] == 1) {
         //         changeColor2()
         //     } else {
         //         changeColor1()
         //     }
+        // }).catch(function (err) {
+        //     console.log('Fetch Error :-S', err);
         // });
-        fetch("http://127.0.0.1:8000/isFatakClosed").then(function (response) {
-            return response.json();
-        }).then(function (data) {
-            console.log(data);
-            if (data["flag"] == 1) {
-                changeColor2()
-            } else {
-                changeColor1()
-            }
-        }).catch(function (err) {
-            console.log('Fetch Error :-S', err);
-        });
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=myMap&v=weekly" defer></script>
 </body>
