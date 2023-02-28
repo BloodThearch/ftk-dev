@@ -24,3 +24,9 @@ Then run the addRecord.py file by:
 
 # Other Scripts
 extractInfo.py creates the extractedData.csv.
+
+# Screenshots
+Barrier closed:
+![Alt text](Screenshots/ftkclosed.jpeg?raw=true "ftkclosed")
+Barrier open:
+![Alt text](Screenshots/ftkopen.jpeg?raw=true "ftkopen")
